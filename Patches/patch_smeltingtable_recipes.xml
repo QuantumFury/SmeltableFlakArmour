@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd"> 
+		<xpath>/Defs/ThingDefs_Buildings[defName = "ElectricSmelter"]/recipes</xpath>
+		<value>
+			<li>SmeltFlakVest</li>
+			<li>SmeltFlakPants</li>
+			<li>SmeltFlakJacket</li>
+			<li>SmeltPowerArmour</li>
+			<li>SmeltPowerHelmet</li>
+		</value>
+	</Operation>
+</Patch>

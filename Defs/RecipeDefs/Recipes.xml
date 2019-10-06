@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<RecipeDef>
+    <defName>SmeltFlakVest</defName>
+    <label>smelt flak vest</label>
+    <description>Use heat and strong electromagnets to break down a flak vest into useful resources.</description>
+    <jobString>Smelting flak vest.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+		<products>
+  		    <Steel>20</Steel>
+   		</products>
+		<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_FlakVest</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Apparel_FlakVest</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>SmeltFlakPants</defName>
+    <label>smelt flak pant</label>
+    <description>Use heat and strong electromagnets to break down a pair of flak pants into useful resources.</description>
+    <jobString>Smelting flak pants.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+		<products>
+  		    <Steel>10</Steel>
+   		</products>
+		<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_FlakPants</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Apparel_FlakPants</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>SmeltFlakJacket</defName>
+    <label>smelt flak jacket</label>
+    <description>Use heat and strong electromagnets to break down a flak jacket into useful resources.</description>
+    <jobString>Smelting flak jacket.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+		<products>
+  		    <Steel>10</Steel>
+   		</products>
+		<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_FlakJacket</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Apparel_FlakJacket</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>SmeltPowerArmour</defName>
+    <label>smelt marine armour</label>
+    <description>Use heat and strong electromagnets to break down marine armour into scrap metal. Note: The extreme heat of the process destroys all electronics, rendering them unrecoverable</description>
+    <jobString>Smelting Marine Armour.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+		<products>
+  		    <Steel>30</Steel>
+          <Plasteel>20</Plasteel>
+   		</products>
+		<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_PowerArmor</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Apparel_PowerArmor</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>SmeltPowerHelmet</defName>
+    <label>smelt marine helmet</label>
+    <description>Use heat and strong electromagnets to break down a marine helmet into scrap metal. Note: The extreme heat of the process destroys all electronics, rendering them unrecoverable</description>
+    <jobString>Smelting marine helmet.</jobString>
+    <workAmount>1600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+		<products>
+  		    <Steel>15</Steel>
+          <Plasteel>5</Plasteel>
+   		</products>
+		<ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Apparel_PowerArmorHelmet</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Apparel_PowerArmorHelmet</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+
+</Defs>
