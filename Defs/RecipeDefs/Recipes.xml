@@ -28,6 +28,9 @@
         <li>Apparel_FlakVest</li>
       </thingDefs>
     </fixedIngredientFilter>
+	<recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
 
 <RecipeDef>
@@ -57,6 +60,9 @@
         <li>Apparel_FlakPants</li>
       </thingDefs>
     </fixedIngredientFilter>
+	<recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
 
 <RecipeDef>
@@ -86,6 +92,9 @@
         <li>Apparel_FlakJacket</li>
       </thingDefs>
     </fixedIngredientFilter>
+	<recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
 
 <RecipeDef>
@@ -116,6 +125,9 @@
         <li>Apparel_PowerArmor</li>
       </thingDefs>
     </fixedIngredientFilter>
+	<recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
 
 <RecipeDef>
@@ -146,6 +158,9 @@
         <li>Apparel_PowerArmorHelmet</li>
       </thingDefs>
     </fixedIngredientFilter>
+	<recipeUsers>
+      <li>ElectricSmelter</li>
+    </recipeUsers>
   </RecipeDef>
 
 
